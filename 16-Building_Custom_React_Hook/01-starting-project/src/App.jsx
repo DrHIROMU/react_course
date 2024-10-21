@@ -13,9 +13,7 @@ function App() {
   const selectedPlace = useRef();
 
   const [errorUpdatingPlaces, setErrorUpdatingPlaces] = useState();
-
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
   const {
     isFetching,
     error,
@@ -33,8 +31,6 @@ function App() {
   }
 
   async function handleSelectPlace(selectedPlace) {
-    // await updateUserPlaces([selectedPlace, ...userPlaces]);
-
     setUserPlaces((prevPickedPlaces) => {
       if (!prevPickedPlaces) {
         prevPickedPlaces = [];

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^19.0.0",
+    "react-complete-guide": "file:",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
